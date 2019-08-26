@@ -15,7 +15,7 @@ const routes: Routes = [
                 },
                 {
                     path: ':placeId',
-                    loadChildren: './discover/place-details/place-details.module#PlaceDetailsPageModule '
+                    loadChildren: './discover/place-details/place-details.module#PlaceDetailsPageModule'
                 }
             ]},
             {
