@@ -37,7 +37,9 @@ export class PlacesService {
     }
 
     getPlaceInUrl(id: string) {
-        return {...this.places.find(p => p.id === id)
+        let result: Place = {...this.places.find(p => p.id === id)
         };
+        console.log('result');
+        return result ;
     }
 }

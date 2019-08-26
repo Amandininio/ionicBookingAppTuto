@@ -22,10 +22,9 @@ export class OfferBookingsPage implements OnInit {
         return;
       }
       this.place = this.placeService.getPlaceInUrl(paramMap.get('placeId'));
+      });
     }
 
-    );
-  }
   onViewWillEnter() {
   }
 
